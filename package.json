@@ -2,7 +2,6 @@
   "name": "presentation-cypress",
   "version": "1.0.0",
   "description": "---",
-  "main": "index.js",
   "scripts": {
     "test:ci": "cypress run --record --key 240372c2-fbbb-4bf3-8a2c-fd021b242525",
     "test:dev": "cypress open",
