@@ -1,4 +1,4 @@
-## Weg mit Selenium - Integrationstests mit Cypress
+## Integrationstests mit Cypress
 
 ---
 
@@ -110,7 +110,7 @@ Note:
 
 ### Testrunner
 
-<video autoplay="" loop="" muted="" playsinline="" controls="" class="" poster="https://docs.cypress.io/img/snippets/selector-playground.f4c8a7a8.png" style="width:100%">
+<video id="testrunner-video" autoplay="" loop="" muted="" playsinline="" controls="" class="" poster="https://docs.cypress.io/img/snippets/selector-playground.f4c8a7a8.png" style="width:100%">
     <source type="video/mp4" src="https://docs.cypress.io/img/snippets/selector-playground.08527209.mp4">
 </video>
 
@@ -277,9 +277,10 @@ Note:
 
 ---
 
-## 4. Tradeoffs
+## 5. Tradeoffs
 
 - Limitiert auf Chrome (Firefox, IE, Safari in Entwicklung)
+- Im Development Modus sher RAM hungrig
 - Läuft innerhalb des Browsers:
     - Kein Multi Tab support
     - Eine test suite pro browser gleichzeitig

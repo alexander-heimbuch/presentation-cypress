@@ -1,0 +1,17 @@
+---
+kind: pipeline
+name: apps/player
+
+steps:
+- name: bootstrap
+  image: node:10
+  commands:
+    - npm i
+
+
+- name: integration
+  image: cypress/base:10
+  commands:
+    - npx cypress install
+    - npm run start:ci
+    - npm run test:ci
